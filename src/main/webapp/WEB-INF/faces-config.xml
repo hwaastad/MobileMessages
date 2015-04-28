@@ -4,7 +4,8 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd">
     <application>
-        <view-handler>org.waastad.primefacesgrowl.viewhandler.CustomViewHandler</view-handler>
+       <default-render-kit-id>PRIMEFACES_MOBILE</default-render-kit-id>
+      <!--  <view-handler>org.waastad.primefacesgrowl.viewhandler.CustomViewHandler</view-handler>-->
         <navigation-handler>org.primefaces.mobile.application.MobileNavigationHandler</navigation-handler>
         <resource-handler>org.omnifaces.resourcehandler.UnmappedResourceHandler</resource-handler>
     </application>
